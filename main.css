@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+}
+
+/* Nav Header */
+nav > img {
+width: 200px;
+height: 75px;
+}
+
+.language {
+    width: 132px;
+    height: 40px;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+}
+
+#signin {
+    width: 77px;
+    height: 32px;
+}
+
+.signlang {
+    display: flex;
+    gap: 16px;
+}
