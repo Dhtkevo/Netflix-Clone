@@ -6,7 +6,7 @@
 
 body {
     background-color: #000;
-    overflow: scroll;
+    overflow-y: scroll;
     padding: 0 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -51,6 +51,11 @@ nav {
     border-radius:8px;
     border: none;
     font-size: 14px;
+}
+
+#signin:hover {
+    background-color: darkred;
+    cursor: pointer;
 }
 
 .signlang {
@@ -114,6 +119,11 @@ nav {
     gap: 6px;
 }
 
+.h-btns > button:hover {
+    background-color: darkred;
+    cursor: pointer;
+}
+
 .h-btns > button::after {
     content: '>';
 }
@@ -137,6 +147,7 @@ main {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to bottom, #000000, black, #676767);
+    padding: 0 120px;
 }
 
 section {
